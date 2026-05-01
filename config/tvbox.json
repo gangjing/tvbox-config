@@ -1,0 +1,46 @@
+{
+  "spider": "",
+  "wallpaper": "",
+  "homepage": "https://github.com/o0HalfLife0o/TVBoxOSC",
+  "sites": [
+    {
+      "key": "csp_yutu_variety",
+      "name": "综艺（玉兔资源）",
+      "type": 1,
+      "api": "https://apiyutu.com/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "categories": ["综艺", "国产综艺", "港台综艺", "日韩综艺"]
+    },
+    {
+      "key": "csp_155_usdrama",
+      "name": "美剧（155资源）",
+      "type": 1,
+      "api": "https://155api.com/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "categories": ["美剧", "欧美剧", "剧情", "科幻", "悬疑"]
+    },
+    {
+      "key": "csp_senlin_cn_drama",
+      "name": "国产剧（森林资源）",
+      "type": 1,
+      "api": "https://slapibf.com/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "categories": ["国产剧", "大陆剧", "古装", "都市", "刑侦"]
+    }
+  ],
+  "parses": [
+    {
+      "name": "json直连",
+      "type": 0,
+      "url": ""
+    }
+  ],
+  "rules": [],
+  "flags": []
+}
