@@ -1,38 +1,11 @@
 {
   "sites": [
     {
-      "key": "fty",
-      "name": "饭太硬",
-      "type": 3,
-      "api": "http://www.饭太硬.com/tv",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
-      "key": "jg",
-      "name": "俊哥备用",
-      "type": 3,
-      "api": "http://home.jundie.top:81/top98.json",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
+      "key": "dx",
+      "name": "稳定仓（GitHub）",
+      "type": 0,
+      "api": "https://dxawi.github.io/0/0.json",
+      "searchable": 1
     }
-  ],
-  "parses": [
-    {
-      "name": "解析1",
-      "type": 1,
-      "url": "https://jx.playerjy.com/?url="
-    },
-    {
-      "name": "解析2",
-      "type": 1,
-      "url": "https://jx.jsonplayer.com/player/?url="
-    }
-  ],
-  "lives": [],
-  "flags": [],
-  "wallpaper": "https://picsum.photos/1920/1080",
-  "spider": ""
+  ]
 }
